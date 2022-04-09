@@ -1,5 +1,8 @@
 # Regression-Analysis-Using-JMP-Pro
+
 Mount Rainer is an active volcano and is one of the most dangerous volcanos in the world but that does not stop thrill seekers to drive by close to it to just get a glimpse of its magnificent beauty. There is only up to a certain limit that you can drive there, and many climbers take up the challenge to go to the top. Therefore, this makes it very thrilling destination.   Many climbers and tourists leave their car for days while climbing and do not have much information of their vehicle during that time. Thus, calculating the average battery voltage to see whether it is safe enough to leave it in the cold can be productive.
+
+
 
 2.	Project Dataset Description:
 
@@ -16,6 +19,7 @@ Characteristics of the Dataset:
 •	The data is collected from Northwest Avalanche Center website on Mount Rainer.
 
 
+
 3.	Project Goal & Objectives:
 
 The main goal is to use Regression Analysis with given data including both simple linear regression and multiple linear regression.
@@ -30,6 +34,9 @@ b)	To perform ANOVA and Hypothesis Test of the objective a).
 
 Now, each objective mentioned will be conducted in the JMP software respectively to determine the output.
 
+
+
+4.	Solution Approach and Analysis:
 
 Objective A:
 
@@ -65,6 +72,7 @@ Therefore, we reject the null hypothesis.
 Thus, we can conclude that average battery voltage is significantly related to Relative Humidity (%), Temperature (deg F) Wind Speed Average (mph) and Solar Radiation (W/m2).
 
 There aren’t any significant departures from the straight line and doesn’t seem to have any potential outliers. Thus, it is good enough to predict the values of the voltage.
+
 
 
 5.	Conclusion and Recommendations 
