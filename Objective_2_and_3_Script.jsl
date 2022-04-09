@@ -1,0 +1,50 @@
+
+Fit Model(
+	Y( :"Temperature  (deg F)"n ),
+	Effects(
+		:"Relative Humidity  (%)"n, :"Wind Speed Average  (mph)"n,
+		:"Solar Radiation  (W/m2)"n
+	),
+	Personality( "Standard Least Squares" ),
+	Emphasis( "Effect Leverage" ),
+	Run(
+		:"Temperature  (deg F)"n << {Summary of Fit( 1 ), Analysis of Variance( 1 ),
+		Parameter Estimates( 1 ), Lack of Fit( 0 ), Scaled Estimates( 0 ),
+		Plot Actual by Predicted( 1 ), Plot Regression( 0 ),
+		Plot Residual by Predicted( 1 ), Plot Studentized Residuals( 0 ),
+		Plot Effect Leverage( 1 ), Plot Residual by Normal Quantiles( 1 ),
+		Box Cox Y Transformation( 0 )}
+	),
+	SendToReport(
+		Dispatch(
+			{"Response Temperature  (deg F)", "Whole Model"},
+			"Actual by Predicted Plot",
+			OutlineBox,
+			{Close( 1 )}
+		),
+		Dispatch(
+			{"Response Temperature  (deg F)", "Whole Model"},
+			"Effect Tests",
+			OutlineBox,
+			{Close( 0 )}
+		),
+		Dispatch(
+			{"Response Temperature  (deg F)", "Relative Humidity  (%)"},
+			"Leverage Plot",
+			OutlineBox,
+			{Close( 1 )}
+		),
+		Dispatch(
+			{"Response Temperature  (deg F)", "Wind Speed Average  (mph)"},
+			"Leverage Plot",
+			OutlineBox,
+			{Close( 1 )}
+		),
+		Dispatch(
+			{"Response Temperature  (deg F)", "Solar Radiation  (W/m2)"},
+			"Leverage Plot",
+			OutlineBox,
+			{Close( 1 )}
+		)
+	)
+);

@@ -1,0 +1,26 @@
+
+Bivariate(
+	Y( :"Average Battery Voltage (v)"n ),
+	X( :"Temperature  (deg F)"n ),
+	Fit Line( {Plot Residuals( 1 ), Line Color( {212, 73, 88} )} ),
+	SendToReport(
+		Dispatch(
+			{"Linear Fit", "Diagnostics Plots"},
+			"Actual by Predicted Plot",
+			OutlineBox,
+			{Close( 1 )}
+		),
+		Dispatch(
+			{"Linear Fit", "Diagnostics Plots"},
+			"Residual by Row Plot",
+			OutlineBox,
+			{Close( 1 )}
+		),
+		Dispatch(
+			{"Linear Fit", "Diagnostics Plots"},
+			"Residual by X Plot",
+			OutlineBox,
+			{Close( 1 )}
+		)
+	)
+);
