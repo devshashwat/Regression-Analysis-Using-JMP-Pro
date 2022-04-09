@@ -1,5 +1,16 @@
 # Regression-Analysis-Using-JMP-Pro
 
+
+The main goal is to use Regression Analysis with given data including both simple linear regression and multiple linear regression.
+
+Project Objectives:
+
+a)	To determine the relationship between Average Battery Voltage (v), taken as Response Variable, and Relative Humidity (%), Temperature (deg F) Wind Speed Average (mph) and Solar Radiation (W/m2), all taken as Regressors using multiple linear regression.
+
+b)	To perform ANOVA and Hypothesis Test of the objective a).
+
+1. Intoduction
+
 Mount Rainer is an active volcano and is one of the most dangerous volcanos in the world but that does not stop thrill seekers to drive by close to it to just get a glimpse of its magnificent beauty. There is only up to a certain limit that you can drive there, and many climbers take up the challenge to go to the top. Therefore, this makes it very thrilling destination.   Many climbers and tourists leave their car for days while climbing and do not have much information of their vehicle during that time. Thus, calculating the average battery voltage to see whether it is safe enough to leave it in the cold can be productive.
 
 
@@ -20,19 +31,7 @@ Characteristics of the Dataset:
 
 
 
-3.	Project Goal & Objectives:
-
-The main goal is to use Regression Analysis with given data including both simple linear regression and multiple linear regression.
-
-Project Objectives:
-
-a)	To determine the relationship between Average Battery Voltage (v), taken as Response Variable, and Relative Humidity (%), Temperature (deg F) Wind Speed Average (mph) and Solar Radiation (W/m2), all taken as Regressors using multiple linear regression.
-
-b)	To perform ANOVA and Hypothesis Test of the objective a).
-
-
-
-4.	Solution Approach and Analysis:
+3.	Solution Approach and Analysis:
 
 Now, each objective mentioned will be conducted in the JMP software respectively to determine the output.
 
@@ -74,7 +73,7 @@ There aren’t any significant departures from the straight line and doesn’t s
 
 
 
-5.	Conclusion and Recommendations 
+4.	Conclusion and Recommendations 
 
 In conclusion, since there we can also compare the predicted value of the battery voltage in the current temperature by displaying the average predicted value of the voltage.
 
@@ -92,7 +91,7 @@ Future Work:
 •	Hypothesis Tests can be done by taking climbers data to find the relation between climbing the mountain and the temperature.
 
 
-6.	Appendix & Reference
+5.	Appendix & Reference
 [1] Northwest Avalanche Center. “Mount Rainer Weather Station .” Northwest Avalanche Center, 8 Oct. 2020, https://nwac.us/data-portal/location/mt-rainier/. 
 
 
