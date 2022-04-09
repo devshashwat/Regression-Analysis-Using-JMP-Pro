@@ -30,13 +30,12 @@ a)	To determine the relationship between Average Battery Voltage (v), taken as R
 
 b)	To perform ANOVA and Hypothesis Test of the objective a).
 
+
+
 4.	Solution Approach and Analysis:
 
 Now, each objective mentioned will be conducted in the JMP software respectively to determine the output.
 
-
-
-4.	Solution Approach and Analysis:
 
 Objective A:
 
